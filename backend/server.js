@@ -13,7 +13,14 @@ import userRoutes from "./routes/user.routes.js";
 
 const app = express();
 
-app.use(cors({ origin: process.env.CLIENT_URL, credentials: true }));
+app.use(cors({
+  origin: process.env.CLIENT_URL,
+  credentials: true,
+  methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
+  allowedHeaders: ["Content-Type", "Authorization", "Cookie"],
+}));
+
+app.set("trust proxy", 1);
 app.use(express.json());
 app.use(cookieParser());
 
