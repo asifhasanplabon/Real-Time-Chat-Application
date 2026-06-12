@@ -4,7 +4,7 @@ A modern full-stack real-time chat application built with the MERN stack and Soc
 
 ## 🚀 Live Demo
 
-**Frontend:** https://real-time-chat-asif-hasan.netlify.app/chat
+**Frontend:** https://real-time-chat-asif-hasan.netlify.app
 
 **Backend API:** https://real-time-chat-application-skjn.onrender.com
 
@@ -286,7 +286,7 @@ npm run dev
 Junior Software Engineer
 
 * GitHub: https://github.com/asifhasanplabon
-* LinkedIn: https://linkedin.com/in/asifhasanplabon
+* LinkedIn: https://linkedin.com/in/plabon010
 * Email: [ahplabon36@gmail.com](mailto:ahplabon36@gmail.com)
 
 ---
